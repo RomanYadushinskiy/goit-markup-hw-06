@@ -642,8 +642,10 @@ padding-top: 94px;
 .logo-adress {
     margin-right: 70px;
 }
-.social {
-    margin-right: 93px;
+
+.subscribe {
+    margin-left: auto;
+    
 }
 
 .join,
@@ -864,6 +866,10 @@ padding-top: 94px;
     flex-direction: column;
 }
 
+.modal-input-icon {
+    position: relative;
+}
+
 .modal-input {
     padding-left: 42px;
 
@@ -910,8 +916,6 @@ padding-top: 94px;
 .modal-details {
     display: flex;
     flex-direction: column;
-
-    position: relative;
 }
 
 .modal-text {
@@ -926,9 +930,10 @@ padding-top: 94px;
 
 .modal-name-icon {
     position: absolute;
+    top: 0;
     left: 12px;
-    transform: translateY(160%);
-
+    transform: translateY(50%);
+    
     fill: var(--title-text-color);
 }
 
