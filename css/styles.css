@@ -645,7 +645,6 @@ padding-top: 94px;
 
 .subscribe {
     margin-left: auto;
-    
 }
 
 .join,
@@ -866,10 +865,6 @@ padding-top: 94px;
     flex-direction: column;
 }
 
-.modal-input-icon {
-    position: relative;
-}
-
 .modal-input {
     padding-left: 42px;
 
@@ -916,6 +911,7 @@ padding-top: 94px;
 .modal-details {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .modal-text {
